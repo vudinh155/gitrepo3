@@ -3,7 +3,7 @@
 > **Mục tiêu**: Hiểu GitHub Projects là gì, tại sao dùng, và nó khác gì Jira/Trello
 
 **Thời lượng**: 30 phút
-**Đối tượng**: PM, QA, Dev, Stakeholder (tất cả)
+**Đối tượng**: PM, QA (Tester), Dev, Stakeholder (tất cả)
 
 ---
 
@@ -23,6 +23,7 @@ GitHub Projects = Project Management Tool + Code Repository
 ```
 
 Khác với Jira/Trello/Excel:
+
 - Code và Issue ở **CÙNG 1 NƠI**
 - Developer không cần chuyển tab
 - PM/QA thấy được code thật (PR, commit) ngay trong issue
@@ -33,17 +34,18 @@ Khác với Jira/Trello/Excel:
 
 ### GitHub Projects vs. Jira
 
-| Tiêu chí | GitHub Projects | Jira |
-|----------|----------------|------|
-| **Tích hợp code** | ✅ Native (issue ↔ PR ↔ commit) | ⚠️ Cần cấu hình webhook |
-| **Giá** | ✅ Free (public repo) / Rẻ (private) | ❌ Đắt ($7-14/user/tháng) |
-| **Độ phức tạp** | ✅ Đơn giản, dễ học | ❌ Phức tạp, nhiều config |
-| **Phù hợp team** | ✅ 5-50 người | ✅ 10-1000 người |
-| **Customization** | ⚠️ Đủ dùng | ✅ Cực mạnh |
-| **Báo cáo** | ⚠️ Cơ bản (insights) | ✅ Rất mạnh |
-| **Developer UX** | ✅ Xuất sắc | ⚠️ Tạm ổn |
+| Tiêu chí          | GitHub Projects                      | Jira                      |
+| ----------------- | ------------------------------------ | ------------------------- |
+| **Tích hợp code** | ✅ Native (issue ↔ PR ↔ commit)      | ⚠️ Cần cấu hình webhook   |
+| **Giá**           | ✅ Free (public repo) / Rẻ (private) | ❌ Đắt ($7-14/user/tháng) |
+| **Độ phức tạp**   | ✅ Đơn giản, dễ học                  | ❌ Phức tạp, nhiều config |
+| **Phù hợp team**  | ✅ 5-50 người                        | ✅ 10-1000 người          |
+| **Customization** | ⚠️ Đủ dùng                           | ✅ Cực mạnh               |
+| **Báo cáo**       | ⚠️ Cơ bản (insights)                 | ✅ Rất mạnh               |
+| **Developer UX**  | ✅ Xuất sắc                          | ⚠️ Tạm ổn                 |
 
 **Kết luận**:
+
 - **Chọn GitHub Projects** nếu: Team < 50, code trên GitHub, cần đơn giản + rẻ
 - **Chọn Jira** nếu: Team > 100, cần báo cáo phức tạp, nhiều stakeholder
 
@@ -51,16 +53,17 @@ Khác với Jira/Trello/Excel:
 
 ### GitHub Projects vs. Trello
 
-| Tiêu chí | GitHub Projects | Trello |
-|----------|----------------|--------|
-| **Tích hợp code** | ✅ Native | ❌ Không có |
-| **Giá** | ✅ Free/Rẻ | ✅ Free/Rẻ |
-| **Độ phức tạp** | ✅ Vừa phải | ✅ Rất đơn giản |
-| **View** | ✅ Board, Table, Roadmap | ⚠️ Chỉ Board |
-| **Custom field** | ✅ Có | ⚠️ Giới hạn |
-| **Developer UX** | ✅ Xuất sắc | ❌ Developer ghét |
+| Tiêu chí          | GitHub Projects          | Trello            |
+| ----------------- | ------------------------ | ----------------- |
+| **Tích hợp code** | ✅ Native                | ❌ Không có       |
+| **Giá**           | ✅ Free/Rẻ               | ✅ Free/Rẻ        |
+| **Độ phức tạp**   | ✅ Vừa phải              | ✅ Rất đơn giản   |
+| **View**          | ✅ Board, Table, Roadmap | ⚠️ Chỉ Board      |
+| **Custom field**  | ✅ Có                    | ⚠️ Giới hạn       |
+| **Developer UX**  | ✅ Xuất sắc              | ❌ Developer ghét |
 
 **Kết luận**:
+
 - **Chọn GitHub Projects** nếu: Team dev, cần link code + issue
 - **Chọn Trello** nếu: Team marketing/sales, không code
 
@@ -68,15 +71,16 @@ Khác với Jira/Trello/Excel:
 
 ### GitHub Projects vs. Excel/Google Sheets
 
-| Tiêu chí | GitHub Projects | Excel |
-|----------|----------------|-------|
-| **Collaboration** | ✅ Real-time, nhiều người | ⚠️ Dễ conflict |
-| **Tích hợp code** | ✅ Native | ❌ Không có |
-| **Automation** | ✅ Có | ❌ Phải code macro |
-| **Version control** | ✅ Git history | ❌ Không có |
-| **Truy vết** | ✅ Issue history | ❌ Khó trace |
+| Tiêu chí            | GitHub Projects           | Excel              |
+| ------------------- | ------------------------- | ------------------ |
+| **Collaboration**   | ✅ Real-time, nhiều người | ⚠️ Dễ conflict     |
+| **Tích hợp code**   | ✅ Native                 | ❌ Không có        |
+| **Automation**      | ✅ Có                     | ❌ Phải code macro |
+| **Version control** | ✅ Git history            | ❌ Không có        |
+| **Truy vết**        | ✅ Issue history          | ❌ Khó trace       |
 
 **Kết luận**:
+
 - **Đừng dùng Excel** để quản lý dự án software 😅
 
 ---
@@ -102,11 +106,13 @@ Với GitHub Projects:
 ### 2. **Developer-Friendly**
 
 Developer **GHÉT** phải:
+
 - ❌ Chuyển tab sang Jira để update status
 - ❌ Copy issue number vào commit message thủ công
 - ❌ Sync giữa code và task manager
 
 Với GitHub Projects:
+
 - ✅ Tạo PR → auto link vào issue
 - ✅ Merge PR → auto đóng issue
 - ✅ Comment trong PR → team thấy ngay trong project board
@@ -131,11 +137,11 @@ Bug? (Issue #125 references #123)
 
 ### 4. **Miễn phí / Rẻ**
 
-| Loại repo | GitHub Projects | Jira Cloud |
-|-----------|-----------------|------------|
-| Public | **FREE** | N/A |
+| Loại repo               | GitHub Projects                | Jira Cloud           |
+| ----------------------- | ------------------------------ | -------------------- |
+| Public                  | **FREE**                       | N/A                  |
 | Private (team 10 người) | **$4/user/tháng** (GitHub Pro) | **$7-14/user/tháng** |
-| Private (team 20 người) | $80/tháng | $140-280/tháng |
+| Private (team 20 người) | $80/tháng                      | $140-280/tháng       |
 
 ### 5. **Đơn giản, dễ onboard**
 
@@ -202,6 +208,7 @@ Flow:
 ### Case study: Team E-commerce (10 người)
 
 **Trước khi dùng GitHub Projects:**
+
 - PM viết requirement trong Notion
 - Dev track task trong Trello
 - QA dùng Excel để track test case
@@ -209,6 +216,7 @@ Flow:
 - Bug lọt production vì QA không biết feature đã merge
 
 **Sau khi dùng GitHub Projects:**
+
 - Tất cả requirement = GitHub Issue
 - Dev tạo PR → auto link vào issue
 - QA test ngay trên issue, tag dev nếu có bug
@@ -230,26 +238,31 @@ Issue #123: Thêm chức năng "Save for later" trong giỏ hàng
 ---
 
 ## Description
+
 User cần lưu sản phẩm để mua sau, không muốn mất khi thoát app.
 
 ## Acceptance Criteria
+
 - [ ] User click "Save for later" → sản phẩm chuyển sang tab riêng
 - [ ] Sản phẩm được lưu vào database (persist)
 - [ ] User mở lại app → vẫn thấy sản phẩm đã save
 
 ## Technical notes
+
 - API: POST /api/cart/save-for-later
 - Database: thêm cột `saved_for_later_at` vào bảng `cart_items`
 
 ---
 
 **Comments:**
+
 - @dev-john: PR #124 ready for review
 - @qa-alice: Tested on staging ✅ PASS
 - @pm-bob: Merged to v1.5.0
 ```
 
 **Lợi ích:**
+
 - Dev comment PR → PM/QA thấy ngay
 - QA comment test result → Dev biết ngay
 - Ai cũng thấy history: ai làm gì, khi nào
@@ -291,12 +304,14 @@ Bước 6: Áp dụng vào project thật
 ### **Q1: GitHub Projects có miễn phí không?**
 
 **A**: Có!
+
 - Public repository: **Hoàn toàn miễn phí**
 - Private repository: Free cho cá nhân, team cần trả phí (~$4/user/tháng)
 
 ### **Q2: Có cần biết code để dùng GitHub Projects không?**
 
 **A**: **Không bắt buộc** cho PM/QA.
+
 - Bạn chỉ cần biết: tạo issue, comment, update status
 - Dev sẽ lo phần code (PR, commit)
 - Nhưng hiểu Git cơ bản sẽ giúp làm việc tốt hơn
@@ -304,6 +319,7 @@ Bước 6: Áp dụng vào project thật
 ### **Q3: GitHub Projects có thay thế được Jira không?**
 
 **A**: Tuỳ team.
+
 - Team < 50 người, workflow đơn giản: **Có**
 - Team > 100, cần báo cáo phức tạp: **Không**
 - Cả 2 đều tốt, quan trọng là team dùng đúng cách
@@ -311,6 +327,7 @@ Bước 6: Áp dụng vào project thật
 ### **Q4: Có thể integrate GitHub Projects với Slack/Teams không?**
 
 **A**: Có!
+
 - GitHub có Slack/Teams integration
 - Notification khi issue update, PR merge, etc.
 - Xem file 11 (Advanced Techniques) để biết chi tiết
@@ -318,6 +335,7 @@ Bước 6: Áp dụng vào project thật
 ### **Q5: Migration từ Jira/Trello sang GitHub Projects có dễ không?**
 
 **A**: Khá dễ.
+
 - Export Jira/Trello → CSV
 - Import vào GitHub Projects (hoặc tạo issue bằng script)
 - Mất ~1-2 ngày cho team 10 người
