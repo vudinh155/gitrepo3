@@ -7,74 +7,74 @@
 | |  | | (_| | | | | (_| | (_) / ___ \ (_| \__ \
 |_|  |_|\__,_|_| |_|\__, |\___/_/   \_\__,_|___/
                     |___/
-        INTERNAL TRAINING MATERIALS
+        TÀI LIỆU TRAINING NỘI BỘ
 ```
 
-> **LU U Y QUAN TRONG:** Day la tai lieu training noi bo cua MangoAds.
-> Vui long khong chia se ra ben ngoai khi chua co su dong y cua Ban Giam doc.
+> **⚠️ LƯU Ý QUAN TRỌNG:** Đây là tài liệu training nội bộ của MangoAds.
+> Vui lòng không chia sẻ ra bên ngoài khi chưa có sự đồng ý của Ban Giám đốc.
 
 ---
 
-## Gioi thieu
+## Giới thiệu
 
-Tai lieu nay duoc xay dung de training team noi bo MangoAds ve van de **"Data tren Meta/Facebook Ads"** - mot trong nhung cau hoi thuong gap nhat tu khach hang.
+Tài liệu này được xây dựng để training team nội bộ MangoAds về vấn đề **"Data trên Meta/Facebook Ads"** - một trong những câu hỏi thường gặp nhất từ khách hàng.
 
-## Muc tieu Training
+## Mục tiêu Training
 
-Sau khi hoan thanh training nay, nhan vien MangoAds se:
+Sau khi hoàn thành training này, nhân viên MangoAds sẽ:
 
-1. **Hieu ro** 2 loai data chinh tren Meta Platforms
-2. **Phan biet duoc** Audience Data va Reporting Data
-3. **Giai thich chinh xac** cho khach hang ve van de "mat data"
-4. **Tu tin tra loi** khi khach hang hoi "chay xong co lay lai duoc data khong?"
-5. **Hieu dung ban chat** cua Data trong quang cao so (Data + Platform = Gia tri)
-6. **Giai toa noi lo** cua khach hang ve "co data ma khong dung duoc"
+1. **Hiểu rõ** 2 loại data chính trên Meta Platforms
+2. **Phân biệt được** Audience Data và Reporting Data
+3. **Giải thích chính xác** cho khách hàng về vấn đề "mất data"
+4. **Tự tin trả lời** khi khách hàng hỏi "chạy xong có lấy lại được data không?"
+5. **Hiểu đúng bản chất** của Data trong quảng cáo số (Data + Platform = Giá trị)
+6. **Giải tỏa nỗi lo** của khách hàng về "có data mà không dùng được"
 
-## Cau truc Tai lieu
+## Cấu trúc Tài liệu
 
-| File | Noi dung |
+| File | Nội dung |
 |------|----------|
-| [01-hieu-biet-ve-data-meta-ads.md](./01-hieu-biet-ve-data-meta-ads.md) | Kien thuc nen tang ve 2 loai data tren Meta |
-| [02-kich-ban-tra-loi-khach-hang.md](./02-kich-ban-tra-loi-khach-hang.md) | Cac kich ban tra loi khach hang thuong gap |
-| [03-bang-tom-tat-nhanh.md](./03-bang-tom-tat-nhanh.md) | Bang tom tat nhanh de tra cuu |
-| [04-hieu-dung-ve-data.md](./04-hieu-dung-ve-data.md) | **[MOI]** Hieu dung ban chat Data (Data + Platform = Gia tri) |
+| [01-hiểu-biết-về-data-meta-ads.md](./01-hieu-biet-ve-data-meta-ads.md) | Kiến thức nền tảng về 2 loại data trên Meta |
+| [02-kịch-bản-trả-lời-khách-hàng.md](./02-kich-ban-tra-loi-khach-hang.md) | Các kịch bản trả lời khách hàng thường gặp |
+| [03-bảng-tóm-tắt-nhanh.md](./03-bang-tom-tat-nhanh.md) | Bảng tóm tắt nhanh để tra cứu |
+| [04-hiểu-đúng-về-data.md](./04-hieu-dung-ve-data.md) | **[MỚI]** Hiểu đúng bản chất Data (Data + Platform = Giá trị) |
 
-## Doi tuong Ap dung
+## Đối tượng Áp dụng
 
 - Account Manager
 - Media Buyer
 - Sales Team
 - Customer Success Team
-- Tat ca nhan vien MangoAds tiep xuc voi khach hang
+- Tất cả nhân viên MangoAds tiếp xúc với khách hàng
 
-## Cach Su dung Tai lieu
+## Cách Sử dụng Tài liệu
 
-1. **Doc ky** tai lieu 01 de nam vung kien thuc nen tang
-2. **Doc tiep** tai lieu 04 de hieu sau hon ve ban chat Data
-3. **Luyen tap** cac kich ban trong tai lieu 02
-4. **In ra** hoac luu bang tom tat 03 de tra cuu nhanh khi can
+1. **Đọc kỹ** tài liệu 01 để nắm vững kiến thức nền tảng
+2. **Đọc tiếp** tài liệu 04 để hiểu sâu hơn về bản chất Data
+3. **Luyện tập** các kịch bản trong tài liệu 02
+4. **In ra** hoặc lưu bảng tóm tắt 03 để tra cứu nhanh khi cần
 
-## Lo trinh Training De xuat
+## Lộ trình Training Đề xuất
 
 ```
-Ngay 1: Doc tai lieu 01 + 04 (Kien thuc nen tang)
-Ngay 2: Doc tai lieu 02 (Kich ban tra loi)
-Ngay 3: Luyen tap voi dong nghiep (Role-play)
-Ngay 4: Thi thu voi Team Lead
+Ngày 1: Đọc tài liệu 01 + 04 (Kiến thức nền tảng)
+Ngày 2: Đọc tài liệu 02 (Kịch bản trả lời)
+Ngày 3: Luyện tập với đồng nghiệp (Role-play)
+Ngày 4: Thi thử với Team Lead
 ```
 
 ---
 
-## Lien he Ho tro
+## Liên hệ Hỗ trợ
 
-Neu co thac mac ve noi dung training, vui long lien he:
-- Team Lead cua ban
-- Phong Training & Development
+Nếu có thắc mắc về nội dung training, vui lòng liên hệ:
+- Team Lead của bạn
+- Phòng Training & Development
 
 ---
 
 **MangoAds - Digital Ads Agency**
 *"Data-Driven Marketing Solutions"*
 
-*Phien ban: 1.0*
-*Cap nhat: Thang 01/2026*
+*Phiên bản: 1.0*
+*Cập nhật: Tháng 01/2026*

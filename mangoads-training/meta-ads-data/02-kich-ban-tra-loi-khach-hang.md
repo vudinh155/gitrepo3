@@ -1,195 +1,195 @@
-# Kich Ban Tra Loi Khach Hang Ve Van De Data
+# Kịch Bản Trả Lời Khách Hàng Về Vấn Đề Data
 
-> **TAI LIEU TRAINING NOI BO MANGOADS**
-> Phien ban 1.0 - Thang 01/2026
-
----
-
-## Gioi thieu
-
-Tai lieu nay cung cap cac **kich ban mau** de nhan vien MangoAds tra loi khach hang khi ho hoi ve van de "data" tren Meta/Facebook Ads.
+> **📚 TÀI LIỆU TRAINING NỘI BỘ MANGOADS**
+> Phiên bản 1.0 - Tháng 01/2026
 
 ---
 
-## Kich Ban 1: Khach Hang Muon Biet Data Nam O Dau
+## Giới thiệu
 
-### Tinh huong:
-> Khach hoi: *"Data khach hang cua toi nam o dau? Agency co giu khong?"*
-
-### Cach tra loi:
-
-**Buoc 1: Xac nhan va dong cam**
-> "Da, em hieu anh/chi lo lang ve van de data a. Day la cau hoi rat quan trong va em xin giai thich ro rang."
-
-**Buoc 2: Giai thich ro rang**
-> "Tren Meta Ads, data duoc chia thanh 3 nhom:
->
-> **Nhom 1:** Data tu CRM cua anh/chi (email, so dien thoai...) - Day la data anh/chi da co san, em chi upload len Meta de chay remarketing. Data goc van nam trong he thong cua anh/chi.
->
-> **Nhom 2:** Data tuong tac fanpage (nguoi inbox, comment, xem video...) - Data nay nam tren chinh fanpage cua anh/chi, agency khong the mang di.
->
-> **Nhom 3:** Data rong cua Facebook (so thich, hanh vi...) - Day la data cua Meta, ai cung dung nhu nhau, khong ai so huu."
-
-**Buoc 3: Khang dinh**
-> "Vay nen anh/chi yen tam, agency khong giu va cung khong the lay data cua khach hang. Tat ca van thuoc ve anh/chi."
+Tài liệu này cung cấp các **kịch bản mẫu** để nhân viên MangoAds trả lời khách hàng khi họ hỏi về vấn đề "data" trên Meta/Facebook Ads.
 
 ---
 
-## Kich Ban 2: Khach Hang Lo Doi Agency Se Mat Data
+## Kịch Bản 1: Khách Hàng Muốn Biết Data Nằm Ở Đâu
 
-### Tinh huong:
-> Khach hoi: *"Neu toi doi agency thi co mat data khong?"*
+### Tình huống:
+> Khách hỏi: *"Data khách hàng của tôi nằm ở đâu? Agency có giữ không?"*
 
-### Cach tra loi:
+### Cách trả lời:
 
-**Tra loi ngan gon:**
-> "Khong mat a anh/chi. Tat ca data phat sinh tren fanpage, messenger cua anh/chi van thuoc ve anh/chi. Agency moi co the tiep tuc su dung ngay."
+**Bước 1: Xác nhận và đồng cảm**
+> "Dạ, em hiểu anh/chị lo lắng về vấn đề data ạ. Đây là câu hỏi rất quan trọng và em xin giải thích rõ ràng."
 
-**Neu khach muon giai thich them:**
-> "Cu the:
-> - Data CRM: Van nam trong he thong cua anh/chi, anh/chi chi can upload lai cho agency moi
-> - Data fanpage: Van gan voi fanpage, agency moi chi can duoc cap quyen la dung duoc ngay
-> - Data interest: Ai cung dung nhu nhau, khong mat gi ca
+**Bước 2: Giải thích rõ ràng**
+> "Trên Meta Ads, data được chia thành 3 nhóm:
 >
-> Chi co **bao cao va chien luoc** la MangoAds se luu giu. Nhung day la cong suc phan tich, khong phai data khach hang."
+> **Nhóm 1:** Data từ CRM của anh/chị (email, số điện thoại...) - Đây là data anh/chị đã có sẵn, em chỉ upload lên Meta để chạy remarketing. Data gốc vẫn nằm trong hệ thống của anh/chị.
+>
+> **Nhóm 2:** Data tương tác fanpage (người inbox, comment, xem video...) - Data này nằm trên chính fanpage của anh/chị, agency không thể mang đi.
+>
+> **Nhóm 3:** Data rộng của Facebook (sở thích, hành vi...) - Đây là data của Meta, ai cũng dùng như nhau, không ai sở hữu."
+
+**Bước 3: Khẳng định**
+> "Vậy nên anh/chị yên tâm, agency không giữ và cũng không thể lấy data của khách hàng. Tất cả vẫn thuộc về anh/chị."
 
 ---
 
-## Kich Ban 3: Khach Hang Yeu Cau "Giao Lai Data"
+## Kịch Bản 2: Khách Hàng Lo Đổi Agency Sẽ Mất Data
 
-### Tinh huong:
-> Khach noi: *"Chay xong thi agency phai giao lai data cho toi"*
+### Tình huống:
+> Khách hỏi: *"Nếu tôi đổi agency thì có mất data không?"*
 
-### Cach tra loi:
+### Cách trả lời:
 
-**Buoc 1: Lam ro van de**
-> "Da, em hieu y anh/chi. Nhung em xin hoi ro: anh/chi muon nhan lai loai data nao a?"
+**Trả lời ngắn gọn:**
+> "Không mất ạ anh/chị. Tất cả data phát sinh trên fanpage, messenger của anh/chị vẫn thuộc về anh/chị. Agency mới có thể tiếp tục sử dụng ngay."
 
-**Buoc 2: Giai thich tung truong hop**
-
-**Neu khach muon danh sach khach hang tuong tac:**
-> "Data nguoi tuong tac fanpage (inbox, comment) van nam tren fanpage cua anh/chi. Anh/chi co the xem truc tiep trong Fanpage, Messenger hoac Business Suite. Agency khong cam data nay o dau khac."
-
-**Neu khach muon data de chay remarketing:**
-> "Data de chay remarketing co 2 nguon:
-> 1. Data CRM cua anh/chi - anh/chi da co san
-> 2. Data tuong tac fanpage - van nam tren fanpage
-> Tat ca deu thuoc ve anh/chi roi a."
-
-**Neu khach muon "export data tu Facebook":**
-> "Meta khong cho phep export danh sach nguoi dung ra ngoai, vi ly do bao mat quyen rieng tu. Day la chinh sach cua Meta, khong phai cua MangoAds. Chung ta chi co the dung data nay de chay ads trong he sinh thai Meta."
+**Nếu khách muốn giải thích thêm:**
+> "Cụ thể:
+> - Data CRM: Vẫn nằm trong hệ thống của anh/chị, anh/chị chỉ cần upload lại cho agency mới
+> - Data fanpage: Vẫn gắn với fanpage, agency mới chỉ cần được cấp quyền là dùng được ngay
+> - Data interest: Ai cũng dùng như nhau, không mất gì cả
+>
+> Chỉ có **báo cáo và chiến lược** là MangoAds sẽ lưu giữ. Nhưng đây là công sức phân tích, không phải data khách hàng."
 
 ---
 
-## Kich Ban 4: Khach Hang Hoi Gat Ve Data
+## Kịch Bản 3: Khách Hàng Yêu Cầu "Giao Lại Data"
 
-### Tinh huong:
-> Khach noi: *"Toi tra tien, toi phai duoc giu data. Agency dang an bot data cua toi!"*
+### Tình huống:
+> Khách nói: *"Chạy xong thì agency phải giao lại data cho tôi"*
 
-### Cach tra loi:
+### Cách trả lời:
 
-**Buoc 1: Binh tinh, khong phan ung**
-> "Da, em hoan toan hieu su lo lang cua anh/chi. Cho em xin giai thich ky hon ve cach Meta hoat dong a."
+**Bước 1: Làm rõ vấn đề**
+> "Dạ, em hiểu ý anh/chị. Nhưng em xin hỏi rõ: anh/chị muốn nhận lại loại data nào ạ?"
 
-**Buoc 2: Dua ra vi du cu the**
-> "Anh/chi co the kiem tra ngay bao gio:
-> - Vao Business Suite -> Xem tat ca nguoi da inbox
-> - Vao Ads Manager -> Xem Audience da tao
-> - Vao Fanpage -> Xem nguoi da tuong tac
->
-> Tat ca deu nam o do, khong mat di dau a."
+**Bước 2: Giải thích từng trường hợp**
 
-**Buoc 3: Giai thich ve bao cao**
-> "Phan duy nhat MangoAds cam la **bao cao phan tich** - do la cong suc lam viec cua team, khong phai data khach hang. Con data de chay ads thi 100% thuoc ve anh/chi."
+**Nếu khách muốn danh sách khách hàng tương tác:**
+> "Data người tương tác fanpage (inbox, comment) vẫn nằm trên fanpage của anh/chị. Anh/chị có thể xem trực tiếp trong Fanpage, Messenger hoặc Business Suite. Agency không cầm data này ở đâu khác."
 
-**Buoc 4: De xuat giai phap**
-> "Neu anh/chi con lo ngai, em co the:
-> 1. Huong dan anh/chi kiem tra data truc tiep tren Business Suite
-> 2. Giai thich chi tiet chinh sach cua Meta ve data
-> 3. Sap xep cuoc goi de lam ro hon
->
-> Anh/chi chon cach nao thuan tien a?"
+**Nếu khách muốn data để chạy remarketing:**
+> "Data để chạy remarketing có 2 nguồn:
+> 1. Data CRM của anh/chị - anh/chị đã có sẵn
+> 2. Data tương tác fanpage - vẫn nằm trên fanpage
+> Tất cả đều thuộc về anh/chị rồi ạ."
+
+**Nếu khách muốn "export data từ Facebook":**
+> "Meta không cho phép export danh sách người dùng ra ngoài, vì lý do bảo mật quyền riêng tư. Đây là chính sách của Meta, không phải của MangoAds. Chúng ta chỉ có thể dùng data này để chạy ads trong hệ sinh thái Meta."
 
 ---
 
-## Kich Ban 5: Khach Hang Moi Chua Hieu Ve Data
+## Kịch Bản 4: Khách Hàng Hỏi Gắt Về Data
 
-### Tinh huong:
-> Khach moi hoi: *"Toi chay ads thi co duoc data khach hang khong?"*
+### Tình huống:
+> Khách nói: *"Tôi trả tiền, tôi phải được giữ data. Agency đang ăn bớt data của tôi!"*
 
-### Cach tra loi:
+### Cách trả lời:
 
-**Giai thich don gian:**
-> "Da, khi chay ads tren Meta, anh/chi se nhan duoc 2 thu:
->
-> **1. Ket qua quang cao:** So nguoi xem, nguoi click, nguoi mua... - Day la so lieu de danh gia hieu qua.
->
-> **2. Khach hang thuc te:** Nguoi inbox hoi, nguoi de lai thong tin, nguoi mua hang... - Day moi la khach hang thuc su.
->
-> Nhung dieu quan trong la: **Meta khong cho phep export danh sach nguoi xem quang cao**. Anh/chi chi co the chay quang cao lai (remarketing) cho ho trong he sinh thai Meta."
+**Bước 1: Bình tĩnh, không phản ứng**
+> "Dạ, em hoàn toàn hiểu sự lo lắng của anh/chị. Cho em xin giải thích kỹ hơn về cách Meta hoạt động ạ."
 
-**Khuyen khach:**
-> "Vi vay, khi chay ads, anh/chi nen:
-> - Dua khach ve fanpage, website de thu thap thong tin
-> - Dung form de lay so dien thoai, email
-> - Luu data vao CRM cua anh/chi
+**Bước 2: Đưa ra ví dụ cụ thể**
+> "Anh/chị có thể kiểm tra ngay bây giờ:
+> - Vào Business Suite → Xem tất cả người đã inbox
+> - Vào Ads Manager → Xem Audience đã tạo
+> - Vào Fanpage → Xem người đã tương tác
 >
-> Nhu vay anh/chi moi so huu data thuc su."
+> Tất cả đều nằm ở đó, không mất đi đâu ạ."
+
+**Bước 3: Giải thích về báo cáo**
+> "Phần duy nhất MangoAds cầm là **báo cáo phân tích** - đó là công sức làm việc của team, không phải data khách hàng. Còn data để chạy ads thì 100% thuộc về anh/chị."
+
+**Bước 4: Đề xuất giải pháp**
+> "Nếu anh/chị còn lo ngại, em có thể:
+> 1. Hướng dẫn anh/chị kiểm tra data trực tiếp trên Business Suite
+> 2. Giải thích chi tiết chính sách của Meta về data
+> 3. Sắp xếp cuộc gọi để làm rõ hơn
+>
+> Anh/chị chọn cách nào thuận tiện ạ?"
 
 ---
 
-## Kich Ban 6: Giai Thich Cho Khach Dang Ky Hop Dong
+## Kịch Bản 5: Khách Hàng Mới Chưa Hiểu Về Data
 
-### Tinh huong:
-> Khach moi can ky hop dong, lo ngai ve van de data
+### Tình huống:
+> Khách mới hỏi: *"Tôi chạy ads thì có được data khách hàng không?"*
 
-### Cach tra loi:
+### Cách trả lời:
 
-> "Truoc khi ky hop dong, em xin lam ro ve van de data de anh/chi yen tam:
+**Giải thích đơn giản:**
+> "Dạ, khi chạy ads trên Meta, anh/chị sẽ nhận được 2 thứ:
 >
-> **Ve data CRM:** Neu anh/chi co data khach hang (email, so dien thoai), chung ta se upload len Meta de chay remarketing. Data goc van thuoc ve anh/chi 100%.
+> **1. Kết quả quảng cáo:** Số người xem, người click, người mua... - Đây là số liệu để đánh giá hiệu quả.
 >
-> **Ve data fanpage:** Moi tuong tac phat sinh tren fanpage deu thuoc ve fanpage cua anh/chi. Du ngung hop tac, data nay van o do.
+> **2. Khách hàng thực tế:** Người inbox hỏi, người để lại thông tin, người mua hàng... - Đây mới là khách hàng thực sự.
 >
-> **Ve data interest:** Day la data cua Meta, moi agency deu dung nhu nhau.
+> Nhưng điều quan trọng là: **Meta không cho phép export danh sách người xem quảng cáo**. Anh/chị chỉ có thể chạy quảng cáo lại (remarketing) cho họ trong hệ sinh thái Meta."
+
+**Khuyến khách:**
+> "Vì vậy, khi chạy ads, anh/chị nên:
+> - Đưa khách về fanpage, website để thu thập thông tin
+> - Dùng form để lấy số điện thoại, email
+> - Lưu data vào CRM của anh/chị
 >
-> **Ve bao cao:** MangoAds se gui bao cao dinh ky va luu tru lich su. Khi ngung hop tac, anh/chi se duoc nhan day du bao cao.
->
-> Anh/chi co can em giai thich them gi khong a?"
+> Như vậy anh/chị mới sở hữu data thực sự."
 
 ---
 
-## Cau Chot Chuan - Nho Thuoc Long
+## Kịch Bản 6: Giải Thích Cho Khách Đăng Ký Hợp Đồng
 
-> **"Anh/chi yen tam, agency khong giu va cung khong the lay data cua khach hang.**
+### Tình huống:
+> Khách mới cần ký hợp đồng, lo ngại về vấn đề data
+
+### Cách trả lời:
+
+> "Trước khi ký hợp đồng, em xin làm rõ về vấn đề data để anh/chị yên tâm:
 >
-> **Data khach co san thi nam trong CRM cua anh/chi,**
+> **Về data CRM:** Nếu anh/chị có data khách hàng (email, số điện thoại), chúng ta sẽ upload lên Meta để chạy remarketing. Data gốc vẫn thuộc về anh/chị 100%.
 >
-> **Data phat sinh thi nam tren fanpage cua anh/chi,**
+> **Về data fanpage:** Mọi tương tác phát sinh trên fanpage đều thuộc về fanpage của anh/chị. Dù ngừng hợp tác, data này vẫn ở đó.
 >
-> **Con data Facebook rong la cua Meta - ai cung dung nhu nhau."**
+> **Về data interest:** Đây là data của Meta, mọi agency đều dùng như nhau.
+>
+> **Về báo cáo:** MangoAds sẽ gửi báo cáo định kỳ và lưu trữ lịch sử. Khi ngừng hợp tác, anh/chị sẽ được nhận đầy đủ báo cáo.
+>
+> Anh/chị có cần em giải thích thêm gì không ạ?"
 
 ---
 
-## Luu Y Khi Giao Tiep Voi Khach
+## 💬 Câu Chốt Chuẩn - Nhớ Thuộc Lòng
 
-### NEN lam:
-- Binh tinh, khong phan ung khi khach hoi gat
-- Dung vi du cu the de minh hoa
-- Huong dan khach kiem tra truc tiep
-- De xuat cuoc goi neu can giai thich ky hon
-
-### KHONG NEN lam:
-- Tranh cai voi khach
-- Noi "khach khong hieu gi ve data"
-- To thai do kho chiu
-- Bo qua lo ngai cua khach
+> **"Anh/chị yên tâm, agency không giữ và cũng không thể lấy data của khách hàng.**
+>
+> **Data khách có sẵn thì nằm trong CRM của anh/chị,**
+>
+> **Data phát sinh thì nằm trên fanpage của anh/chị,**
+>
+> **Còn data Facebook rộng là của Meta - ai cũng dùng như nhau."**
 
 ---
 
-**Tiep theo:** [03 - Bang Tom Tat Nhanh](./03-bang-tom-tat-nhanh.md)
+## ✅ Lưu Ý Khi Giao Tiếp Với Khách
+
+### NÊN làm:
+- Bình tĩnh, không phản ứng khi khách hỏi gắt
+- Dùng ví dụ cụ thể để minh họa
+- Hướng dẫn khách kiểm tra trực tiếp
+- Đề xuất cuộc gọi nếu cần giải thích kỹ hơn
+
+### KHÔNG NÊN làm:
+- Tranh cãi với khách
+- Nói "khách không hiểu gì về data"
+- Tỏ thái độ khó chịu
+- Bỏ qua lo ngại của khách
+
+---
+
+**Tiếp theo:** [03 - Bảng Tóm Tắt Nhanh](./03-bang-tom-tat-nhanh.md)
 
 ---
 
 *MangoAds - Digital Ads Agency*
-*Tai lieu Training Noi bo*
+*Tài liệu Training Nội bộ*

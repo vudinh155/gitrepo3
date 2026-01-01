@@ -1,333 +1,331 @@
-# Hieu Dung Ve "DATA" Trong Quang Cao So
+# Hiểu Đúng Về "DATA" Trong Quảng Cáo Số
 
-> **TAI LIEU TRAINING NOI BO MANGOADS**
-> Phien ban 1.0 - Thang 01/2026
+> **📚 TÀI LIỆU TRAINING NỘI BỘ MANGOADS**
+> Phiên bản 1.0 - Tháng 01/2026
 >
-> **LUU Y:** Day la tai lieu danh rieng cho nhan vien MangoAds.
-> Noi dung nay cung co the dung nguyen van de giai thich cho khach hang.
+> **⚠️ LƯU Ý:** Đây là tài liệu dành riêng cho nhân viên MangoAds.
+> Nội dung này cũng có thể dùng nguyên văn để giải thích cho khách hàng.
 
 ---
 
-## Muc tieu Cua Phan Nay
+## Mục tiêu Của Phần Này
 
-Giup nhan vien MangoAds:
-- Giai thich cho khach hieu **"data la gi"**
-- Giai toa noi lo **"co data ma khong dung duoc"**
-- Tu tin tra loi cau hoi **"chay ads xong co lay duoc data khong?"**
+Giúp nhân viên MangoAds:
+- Giải thích cho khách hiểu **"data là gì"**
+- Giải tỏa nỗi lo **"có data mà không dùng được"**
+- Tự tin trả lời câu hỏi **"chạy ads xong có lấy được data không?"**
 
 ---
 
-## 1. Co Data Chua Du - Phai Co PLATFORM Thi Data Moi Co Tac Dung
+## 1. Có Data Chưa Đủ - Phải Có PLATFORM Thì Data Mới Có Tác Dụng
 
-### 1.1. Data Ban Chat KHONG TU SINH RA GIA TRI
+### 1.1. Data Bản Chất KHÔNG TỰ SINH RA GIÁ TRỊ
 
 ```
 +------------------+     +------------------+     +------------------+
-|      DATA        |  +  |    PLATFORM      |  =  |    GIA TRI       |
-|   (Nguyen lieu)  |     | (Cong cu tiep    |     |  (Ket qua)       |
-|                  |     |  can khach hang) |     |                  |
+|      DATA        |  +  |    PLATFORM      |  =  |    GIÁ TRỊ       |
+|   (Nguyên liệu)  |     | (Công cụ tiếp    |     |  (Kết quả)       |
+|                  |     |  cận khách hàng) |     |                  |
 +------------------+     +------------------+     +------------------+
 ```
 
-**Data chi la nguyen lieu, khong phai ket qua.**
+**Data chỉ là nguyên liệu, không phải kết quả.**
 
-Neu:
-- Co data khach hang
-- **NHUNG** khong co nen tang de tiep can ho
+Nếu:
+- Có data khách hàng
+- **NHƯNG** không có nền tảng để tiếp cận họ
 
-➡️ **Data do gan nhu vo dung!**
+➡️ **Data đó gần như vô dụng!**
 
 ---
 
-### 1.2. Vi Du De Hieu Nhat: TELESALE
+### 1.2. Ví Dụ Dễ Hiểu Nhất: TELESALE
 
-**Hay giai thich cho khach bang vi du nay:**
+**Hãy giải thích cho khách bằng ví dụ này:**
 
-> *"Data giong nhu danh sach so dien thoai.*
-> *Co so dien thoai ma khong goi thi khong ban duoc hang."*
+> *"Data giống như danh sách số điện thoại.*
+> *Có số điện thoại mà không gọi thì không bán được hàng."*
 
-| Telesale | Quang cao so |
+| Telesale | Quảng cáo số |
 |----------|--------------|
-| So dien thoai | Audience Data (email, sdt, hanh vi) |
-| Nhan vien telesale | Nen tang quang cao (Facebook, Google) |
-| Cuoc goi | Quang cao hien thi den dung nguoi |
+| Số điện thoại | Audience Data (email, sđt, hành vi) |
+| Nhân viên telesale | Nền tảng quảng cáo (Facebook, Google) |
+| Cuộc gọi | Quảng cáo hiển thị đến đúng người |
 
-### Facebook / Google dong vai tro gi?
+### Facebook / Google đóng vai trò gì?
 
 ```
 +----------------------------------------------------------+
 |                                                          |
-|   FACEBOOK / GOOGLE KHONG PHAI LA DATA                   |
+|   FACEBOOK / GOOGLE KHÔNG PHẢI LÀ DATA                   |
 |                                                          |
-|   Facebook / Google la NGUOI GOI DIEN thay cho           |
-|   doanh nghiep trong the gioi so                         |
+|   Facebook / Google là NGƯỜI GỌI ĐIỆN thay cho           |
+|   doanh nghiệp trong thế giới số                         |
 |                                                          |
 +----------------------------------------------------------+
 ```
 
-**Doanh nghiep:**
-- Dua danh sach (email / sdt / hanh vi / so thich)
-- Facebook/Google dung he thong cua ho de "goi" dung nguoi
+**Doanh nghiệp:**
+- Đưa danh sách (email / sđt / hành vi / sở thích)
+- Facebook/Google dùng hệ thống của họ để "gọi" đúng người
 
 ---
 
-## 2. Vi Sao Co Data Ma Van PHAI Import Vao Facebook / Google?
+## 2. Vì Sao Có Data Mà Vẫn PHẢI Import Vào Facebook / Google?
 
-### 2.1. Vi Nguoi Dung Nam Trong He Sinh Thai Cua Platform
+### 2.1. Vì Người Dùng Nằm Trong Hệ Sinh Thái Của Platform
 
-| Muon chay | Phai import vao |
+| Muốn chạy | Phải import vào |
 |-----------|-----------------|
 | Facebook Ads | Facebook |
 | Google Ads | Google |
 | TikTok Ads | TikTok |
 
-**Khong co con duong nao khac, vi:**
-- Nguoi dung o **TREN** nen tang do
-- Nen tang do **SO HUU** diem cham voi nguoi dung
+**Không có con đường nào khác, vì:**
+- Người dùng ở **TRÊN** nền tảng đó
+- Nền tảng đó **SỞ HỮU** điểm chạm với người dùng
 
-> **KHONG IMPORT = KHONG CO CACH TIEP CAN**
+> **KHÔNG IMPORT = KHÔNG CÓ CÁCH TIẾP CẬN**
 
 ---
 
-### 2.2. Platform Dung Data De "TARGET", Khong Phai De Tra Lai Danh Sach
+### 2.2. Platform Dùng Data Để "TARGET", Không Phải Để Trả Lại Danh Sách
 
-**Diem RAT QUAN TRONG can nhan manh voi khach:**
+**Điểm RẤT QUAN TRỌNG cần nhấn mạnh với khách:**
 
-| Platform | Co tra ve danh sach khong? |
+| Platform | Có trả về danh sách không? |
 |----------|----------------------------|
-| Facebook | **KHONG** tra ve danh sach ai thay quang cao |
-| Google | **KHONG** tra ve danh sach ai click |
-| TikTok | **KHONG** tra ve danh sach ai xem video |
+| Facebook | **KHÔNG** trả về danh sách ai thấy quảng cáo |
+| Google | **KHÔNG** trả về danh sách ai click |
+| TikTok | **KHÔNG** trả về danh sách ai xem video |
 
-**Platform CHI dung data de:**
-- Chon dung nguoi
-- Phan phoi quang cao
+**Platform CHỈ dùng data để:**
+- Chọn đúng người
+- Phân phối quảng cáo
 
 ```
 +----------------------------------------------------------+
 |                                                          |
-|   DAY CHINH LA AUDIENCE DATA                             |
+|   ĐÂY CHÍNH LÀ AUDIENCE DATA                             |
 |                                                          |
-|   Du lieu de NHAM DUNG DOI TUONG,                        |
-|   chu KHONG PHAI du lieu de TAI VE.                      |
+|   Dữ liệu để NHẮM ĐÚNG ĐỐI TƯỢNG,                        |
+|   chứ KHÔNG PHẢI dữ liệu để TẢI VỀ.                      |
 |                                                          |
 +----------------------------------------------------------+
 ```
 
 ---
 
-## 3. Data Thong Ke ≠ Data Khach Hang
+## 3. Data Thống Kê ≠ Data Khách Hàng
 
-### Khach Hay Nham:
+### Khách Hay Nhầm:
 
-> *"Chay ads xong co biet duoc ai da like / xem / click khong?"*
+> *"Chạy ads xong có biết được ai đã like / xem / click không?"*
 
-### 3.1. Ban Chat Cua Data Thong Ke
+### 3.1. Bản Chất Của Data Thống Kê
 
-**Data thong ke:**
-- Luon **AN THONG TIN CA NHAN**
-- Chi hien thi **CON SO TONG HOP**
+**Data thống kê:**
+- Luôn **ẨN THÔNG TIN CÁ NHÂN**
+- Chỉ hiển thị **CON SỐ TỔNG HỢP**
 
-| Co the thay | Khong the thay |
+| Có thể thấy | Không thể thấy |
 |-------------|----------------|
-| Tong luot xem | Ten nguoi dung |
-| Tong luot like | ID Facebook |
-| Tong luot click | Thong tin ca nhan chi tiet |
-| CTR, CPC, CPM, ROAS | Danh sach cu the tung nguoi |
+| Tổng lượt xem | Tên người dùng |
+| Tổng lượt like | ID Facebook |
+| Tổng lượt click | Thông tin cá nhân chi tiết |
+| CTR, CPC, CPM, ROAS | Danh sách cụ thể từng người |
 
 ---
 
-### 3.2. Vi Sao Khong Cho Xem Chi Tiet Tung Nguoi?
+### 3.2. Vì Sao Không Cho Xem Chi Tiết Từng Người?
 
-**Vi:**
-- Bao mat nguoi dung
-- Tuan thu luat rieng tu (GDPR, Privacy Policy)
-- Platform kiem soat du lieu ca nhan
+**Vì:**
+- Bảo mật người dùng
+- Tuân thủ luật riêng tư (GDPR, Privacy Policy)
+- Platform kiểm soát dữ liệu cá nhân
 
-> **Ngay ca doanh nghiep cung KHONG DUOC tai danh sach "ai da like ads" ve may**
+> **Ngay cả doanh nghiệp cũng KHÔNG ĐƯỢC tải danh sách "ai đã like ads" về máy**
 
 ---
 
-## 4. "Nhung Toi Thay Duoc Ai Like Fanpage Ma?"
+## 4. "Nhưng Tôi Thấy Được Ai Like Fanpage Mà?"
 
-**Dung - nhung rat GIOI HAN.**
+**Đúng - nhưng rất GIỚI HẠN.**
 
-### 4.1. Thay Duoc ≠ Dung De Quang Cao Lai
+### 4.1. Thấy Được ≠ Dùng Để Quảng Cáo Lại
 
-| Doanh nghiep CO THE | Doanh nghiep KHONG THE |
+| Doanh nghiệp CÓ THỂ | Doanh nghiệp KHÔNG THỂ |
 |---------------------|------------------------|
-| Thay ai like / comment tren fanpage | Tu gui quang cao cho nguoi do |
-| Xem danh sach nguoi tuong tac | Tu "remarketing" bang tay |
+| Thấy ai like / comment trên fanpage | Tự gửi quảng cáo cho người đó |
+| Xem danh sách người tương tác | Tự "remarketing" bằng tay |
 
-**Muon chay quang cao lai:**
-- **BAT BUOC** phai dung Ads Manager cua Meta Platforms
-- Vi Meta la nguoi so huu platform
+**Muốn chạy quảng cáo lại:**
+- **BẮT BUỘC** phải dùng Ads Manager của Meta Platforms
+- Vì Meta là người sở hữu platform
 
 ---
 
-### 4.2. Platform Giong Nhu "CHU TOA NHA"
+### 4.2. Platform Giống Như "CHỦ TÒA NHÀ"
 
-**Co the noi voi khach:**
+**Có thể nói với khách:**
 
-> *"Anh/chi thay duoc khach dung trong toa nha,*
-> *nhung muon phat loa quang cao thi phai xin phep ban quan ly toa nha."*
+> *"Anh/chị thấy được khách đứng trong tòa nhà,*
+> *nhưng muốn phát loa quảng cáo thì phải xin phép ban quản lý tòa nhà."*
 
-| Vi du | Y nghia |
+| Ví dụ | Ý nghĩa |
 |-------|---------|
-| Toa nha | Facebook / Google |
-| Ban quan ly | Meta / Google |
-| Phat loa quang cao | Chay ads qua Ads Manager |
+| Tòa nhà | Facebook / Google |
+| Ban quản lý | Meta / Google |
+| Phát loa quảng cáo | Chạy ads qua Ads Manager |
 
 ```
 +----------------------------------------------------------+
 |                                                          |
-|   KHACH HANG LA NGUOI THUE MAT BANG TRONG TOA NHA        |
+|   KHÁCH HÀNG LÀ NGƯỜI THUÊ MẶT BẰNG TRONG TÒA NHÀ        |
 |                                                          |
-|   - Thay duoc ai vao cua hang (fanpage)                  |
-|   - Nhung muon phat loa toan toa nha (chay ads)          |
-|     thi phai thong qua ban quan ly (Meta)                |
+|   - Thấy được ai vào cửa hàng (fanpage)                  |
+|   - Nhưng muốn phát loa toàn tòa nhà (chạy ads)          |
+|     thì phải thông qua ban quản lý (Meta)                |
 |                                                          |
 +----------------------------------------------------------+
 ```
 
 ---
 
-## 5. Tom Tat Logic CHUAN De Team MangoAds Nho
+## 5. Tóm Tắt Logic CHUẨN Để Team MangoAds Nhớ
 
-### 5.1. Data KHONG TU CO GIA TRI
+### 5.1. Data KHÔNG TỰ CÓ GIÁ TRỊ
 
-- Data chi la danh sach
-- Phai co platform de kich hoat
+- Data chỉ là danh sách
+- Phải có platform để kích hoạt
 
-### 5.2. Platform La Cong Cu Tiep Can Nguoi Dung
+### 5.2. Platform Là Công Cụ Tiếp Cận Người Dùng
 
-| Platform | Vai tro |
+| Platform | Vai trò |
 |----------|---------|
 | Facebook | Telesale online (Social) |
-| Google | Telesale tren Search & Display |
-| TikTok | Telesale tren Video |
+| Google | Telesale trên Search & Display |
+| TikTok | Telesale trên Video |
 
 ### 5.3. Audience Data ≠ Reporting Data
 
-| Loai | Muc dich |
+| Loại | Mục đích |
 |------|----------|
-| Audience Data | De TARGET |
-| Reporting Data | De DANH GIA hieu qua |
+| Audience Data | Để TARGET |
+| Reporting Data | Để ĐÁNH GIÁ hiệu quả |
 
-### 5.4. Khong Co Chuyen "Lay Danh Sach Khach Tu Ads"
+### 5.4. Không Có Chuyện "Lấy Danh Sách Khách Từ Ads"
 
-- Ads chi cho so lieu tong
-- Khong tra danh tinh chi tiet
+- Ads chỉ cho số liệu tổng
+- Không trả danh tính chi tiết
 
 ---
 
-## 6. Cau Chot Manh De Noi Voi Khach Hang
+## 6. Câu Chốt Mạnh Để Nói Với Khách Hàng
 
 ```
 +----------------------------------------------------------+
 |                                                          |
-|   "Data chi co gia tri khi co nen tang de tiep can       |
-|    khach hang.                                           |
+|   "Data chỉ có giá trị khi có nền tảng để tiếp cận       |
+|    khách hàng.                                           |
 |                                                          |
-|    Facebook va Google chinh la nen tang do.              |
+|    Facebook và Google chính là nền tảng đó.              |
 |                                                          |
-|    Khong co chuyen chay ads xong lay danh sach           |
-|    khach ve - vi ban chat quang cao la PLATFORM          |
-|    THAY DOANH NGHIEP tiep can nguoi dung,                |
-|    chu KHONG BAN GIAO du lieu ca nhan."                  |
+|    Không có chuyện chạy ads xong lấy danh sách           |
+|    khách về - vì bản chất quảng cáo là PLATFORM          |
+|    THAY DOANH NGHIỆP tiếp cận người dùng,                |
+|    chứ KHÔNG BÀN GIAO dữ liệu cá nhân."                  |
 |                                                          |
 +----------------------------------------------------------+
 ```
 
 ---
 
-## 7. Bai Tap Thuc Hanh Cho Nhan Vien MangoAds
+## 7. Bài Tập Thực Hành Cho Nhân Viên MangoAds
 
-### Tinh huong 1:
-> Khach hoi: *"Toi tra tien chay ads, phai duoc nhan data chu?"*
+### 📝 Tình huống 1:
+> Khách hỏi: *"Tôi trả tiền chạy ads, phải được nhận data chứ?"*
 
-**Tra loi mau:**
-> "Da, anh/chi nhan duoc 2 thu:
-> 1. Bao cao hieu qua chi tiet (report)
-> 2. Khach hang thuc te tuong tac voi fanpage/website
+**Trả lời mẫu:**
+> "Dạ, anh/chị nhận được 2 thứ:
+> 1. Báo cáo hiệu quả chi tiết (report)
+> 2. Khách hàng thực tế tương tác với fanpage/website
 >
-> Con danh sach nguoi xem quang cao thi Meta khong cho ai tai ve, vi ly do bao mat. Day la chinh sach cua Meta, khong phai cua MangoAds."
+> Còn danh sách người xem quảng cáo thì Meta không cho ai tải về, vì lý do bảo mật. Đây là chính sách của Meta, không phải của MangoAds."
 
 ---
 
-### Tinh huong 2:
-> Khach hoi: *"Vay toi dang tra tien de duoc cai gi?"*
+### 📝 Tình huống 2:
+> Khách hỏi: *"Vậy tôi đang trả tiền để được cái gì?"*
 
-**Tra loi mau:**
-> "Anh/chi tra tien de Facebook/Google thay anh/chi tiep can dung nguoi can tiep can. Giong nhu thue nhan vien telesale goi dien cho khach - anh/chi tra tien cho cuoc goi, khong phai mua danh sach so dien thoai."
+**Trả lời mẫu:**
+> "Anh/chị trả tiền để Facebook/Google thay anh/chị tiếp cận đúng người cần tiếp cận. Giống như thuê nhân viên telesale gọi điện cho khách - anh/chị trả tiền cho cuộc gọi, không phải mua danh sách số điện thoại."
 
 ---
 
-### Tinh huong 3:
-> Khach hoi: *"Agency khac noi ho co the lay data, sao MangoAds khong lam duoc?"*
+### 📝 Tình huống 3:
+> Khách hỏi: *"Agency khác nói họ có thể lấy data, sao MangoAds không làm được?"*
 
-**Tra loi mau:**
-> "Da, neu agency nao noi ho lay duoc danh sach nguoi xem ads tu Facebook, thi ho dang hieu sai hoac noi khong chinh xac. Day la chinh sach chung cua Meta, khong agency nao co the lam khac.
+**Trả lời mẫu:**
+> "Dạ, nếu agency nào nói họ lấy được danh sách người xem ads từ Facebook, thì họ đang hiểu sai hoặc nói không chính xác. Đây là chính sách chung của Meta, không agency nào có thể làm khác.
 >
-> MangoAds cam ket noi dung su that voi khach hang."
+> MangoAds cam kết nói đúng sự thật với khách hàng."
 
 ---
 
-## 8. So Do Tong Ket
+## 8. Sơ Đồ Tổng Kết
 
 ```
-                         HIEU DUNG VE DATA
+                         HIỂU ĐÚNG VỀ DATA
                               |
          +--------------------+--------------------+
          |                                         |
     AUDIENCE DATA                           REPORTING DATA
-    (De target)                             (De danh gia)
+    (Để target)                             (Để đánh giá)
          |                                         |
-    +----+----+                              So lieu tong hop
+    +----+----+                              Số liệu tổng hợp
     |    |    |                              (CTR, CPC, ROAS...)
     |    |    |                                    |
-  CRM  Fanpage Interest                      Khong co danh tinh
-  Data  Data   Data                          ca nhan
+  CRM  Fanpage Interest                      Không có danh tính
+  Data  Data   Data                          cá nhân
     |    |       |
     |    |       |
- Khach Khach   Meta
- so huu so huu  so huu
+ Khách Khách   Meta
+ sở hữu sở hữu  sở hữu
     |    |       |
     v    v       v
          +-------+
          |
     PLATFORM (Facebook/Google)
-    = Cong cu tiep can
-    = Khong tra danh sach
-    = Chi phan phoi quang cao
+    = Công cụ tiếp cận
+    = Không trả danh sách
+    = Chỉ phân phối quảng cáo
 ```
 
 ---
 
-## 9. Key Takeaways - Nhan Vien MangoAds Phai Nho
+## 9. Key Takeaways - Nhân Viên MangoAds Phải Nhớ
 
-1. **Data + Platform = Gia tri** (Data khong tu co gia tri)
+1. **Data + Platform = Giá trị** (Data không tự có giá trị)
 
-2. **Platform la "nguoi goi dien"** thay cho doanh nghiep
+2. **Platform là "người gọi điện"** thay cho doanh nghiệp
 
-3. **Khong import = Khong tiep can duoc** nguoi dung
+3. **Không import = Không tiếp cận được** người dùng
 
-4. **Platform chi TARGET**, khong tra lai danh sach
+4. **Platform chỉ TARGET**, không trả lại danh sách
 
-5. **Data thong ke ≠ Data khach hang** (chi la con so tong hop)
+5. **Data thống kê ≠ Data khách hàng** (chỉ là con số tổng hợp)
 
-6. **Thay duoc ≠ Dung duoc** de quang cao lai
+6. **Thấy được ≠ Dùng được** để quảng cáo lại
 
-7. **MangoAds cam ket noi dung su that** - khong hua dieu khong the lam
+7. **MangoAds cam kết nói đúng sự thật** - không hứa điều không thể làm
 
 ---
 
-**Quay lai:** [01 - Hieu Biet Ve Data Meta Ads](./01-hieu-biet-ve-data-meta-ads.md)
-
-**Tiep theo:** [05 - FAQ Mo Rong](./05-faq-mo-rong.md)
+**Quay lại:** [01 - Hiểu Biết Về Data Meta Ads](./01-hieu-biet-ve-data-meta-ads.md)
 
 ---
 
 *MangoAds - Digital Ads Agency*
-*Tai lieu Training Noi bo*
-*"Chung toi cam ket noi dung su that voi khach hang"*
+*Tài liệu Training Nội bộ*
+*"Chúng tôi cam kết nói đúng sự thật với khách hàng"*

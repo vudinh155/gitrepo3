@@ -1,37 +1,37 @@
-# Hieu Biet Ve Data Tren Meta/Facebook Ads
+# Hiểu Biết Về Data Trên Meta/Facebook Ads
 
-> **TAI LIEU TRAINING NOI BO MANGOADS**
-> Phien ban 1.0 - Thang 01/2026
-
----
-
-## 1. Vi sao Khach hang Hay Lo "Mat Data"?
-
-Phan lon khach hang **chua phan biet duoc "data la gi"**, va thuong gop tat ca moi thu thanh mot khai niem chung la "data khach hang".
-
-Trong thuc te, tren nen tang **Meta Platforms** (Facebook, Instagram, Messenger...), data duoc chia thanh **2 nhom hoan toan khac nhau**, muc dich su dung cung khac nhau.
-
-### Neu khong lam ro 2 nhom nay ngay tu dau, khach hang se:
-
-- Nghi rang agency "giu data"
-- Nghi rang chay ads xong la "data nam o agency"
-- Lo so doi agency thi "mat het data"
-
-**Nhiem vu cua nhan vien MangoAds:** Giai thich ro rang 2 loai data nay cho khach hang ngay tu dau!
+> **📚 TÀI LIỆU TRAINING NỘI BỘ MANGOADS**
+> Phiên bản 1.0 - Tháng 01/2026
 
 ---
 
-## 2. Hai Loai Data Chinh Tren Meta
+## 1. Vì sao Khách hàng Hay Lo "Mất Data"?
 
-### Loai 1: Audience Data - Du lieu de nham quang cao
+Phần lớn khách hàng **chưa phân biệt được "data là gì"**, và thường gộp tất cả mọi thứ thành một khái niệm chung là "data khách hàng".
 
-> **Muc dich:** Data nay dung de **target / retarget**
-> **KHONG phai** data de phan tich hieu qua.
+Trong thực tế, trên nền tảng **Meta Platforms** (Facebook, Instagram, Messenger...), data được chia thành **2 nhóm hoàn toàn khác nhau**, mục đích sử dụng cũng khác nhau.
 
-### Loai 2: Reporting Data - Ket qua chay quang cao
+### Nếu không làm rõ 2 nhóm này ngay từ đầu, khách hàng sẽ:
 
-> **Muc dich:** Data nay dung de **danh gia campaign**
-> **KHONG dung** de tai khai thac khach hang.
+- Nghĩ rằng agency "giữ data"
+- Nghĩ rằng chạy ads xong là "data nằm ở agency"
+- Lo sợ đổi agency thì "mất hết data"
+
+**👉 Nhiệm vụ của nhân viên MangoAds:** Giải thích rõ ràng 2 loại data này cho khách hàng ngay từ đầu!
+
+---
+
+## 2. Hai Loại Data Chính Trên Meta
+
+### 🔹 Loại 1: Audience Data - Dữ liệu để nhắm quảng cáo
+
+> **Mục đích:** Data này dùng để **target / retarget**
+> **KHÔNG phải** data để phân tích hiệu quả.
+
+### 🔹 Loại 2: Reporting Data - Kết quả chạy quảng cáo
+
+> **Mục đích:** Data này dùng để **đánh giá campaign**
+> **KHÔNG dùng** để tái khai thác khách hàng.
 
 ```
 +------------------+     +------------------+
@@ -45,201 +45,201 @@ Trong thuc te, tren nen tang **Meta Platforms** (Facebook, Instagram, Messenger.
 +------------------+     +------------------+
         |                        |
         v                        v
-   DE CHAY ADS            DE DANH GIA
-   (Targeting)            (Optimization)
+   ĐỂ CHẠY ADS              ĐỂ ĐÁNH GIÁ
+   (Targeting)              (Optimization)
 ```
 
-**HAI LOAI NAY TACH BIET HOAN TOAN, KHONG TRON LAN!**
+**⚠️ HAI LOẠI NÀY TÁCH BIỆT HOÀN TOÀN, KHÔNG TRỘN LẪN!**
 
 ---
 
-## 3. Audience Data - Chi Tiet 3 Nhom
+## 3. Audience Data - Chi Tiết 3 Nhóm
 
-### 3.1. Data Khach hang Tu Co - Import Len Meta (Custom Audience)
+### 3.1. Data Khách hàng Tự Có - Import Lên Meta (Custom Audience)
 
-#### Ban chat:
-- La data **co san** cua khach hang: email, so dien thoai, UID tu CRM, data offline, data POS...
-- Khach hang **da so huu** data nay tu truoc
-- Meta chi dong vai tro **mapping** (ghep noi)
+#### Bản chất:
+- Là data **có sẵn** của khách hàng: email, số điện thoại, UID từ CRM, data offline, data POS...
+- Khách hàng **đã sở hữu** data này từ trước
+- Meta chỉ đóng vai trò **mapping** (ghép nối)
 
-#### Co che hoat dong:
+#### Cơ chế hoạt động:
 ```
-Khach upload data --> Meta ma hoa --> So khop voi user Facebook --> Dung de chay ads
+Khách upload data → Meta mã hóa → So khớp với user Facebook → Dùng để chạy ads
 ```
 
-#### Diem CUC KY QUAN TRONG can noi voi khach:
+#### ⚠️ Điểm CỰC KỲ QUAN TRỌNG cần nói với khách:
 
-> Day la **LUONG MOT CHIEU**: CRM Khach --> Meta
+> Đây là **LUỒNG MỘT CHIỀU**: CRM Khách → Meta
 >
-> - Meta **KHONG PHAI** noi luu tru chinh
-> - **KHONG CO** khai niem "tai data nay tu Meta ve"
+> - Meta **KHÔNG PHẢI** nơi lưu trữ chính
+> - **KHÔNG CÓ** khái niệm "tải data này từ Meta về"
 
-**Ly do:**
-- Khach **da co san** data goc trong CRM
-- Meta chi giup danh trung dung nguoi tren Facebook
+**Lý do:**
+- Khách **đã có sẵn** data gốc trong CRM
+- Meta chỉ giúp đánh trúng đúng người trên Facebook
 
-#### Ket luan cho khach:
+#### 📌 Kết luận cho khách:
 
-> *"Data nay la cua anh/chi tu dau, Meta chi ho tro chay quang cao lai, khong phai noi giu data."*
+> *"Data này là của anh/chị từ đầu, Meta chỉ hỗ trợ chạy quảng cáo lại, không phải nơi giữ data."*
 
 ---
 
-### 3.2. Data Phat Sinh Tu Kenh Cua Chinh Khach Tren Meta
+### 3.2. Data Phát Sinh Từ Kênh Của Chính Khách Trên Meta
 
-#### Bao gom:
+#### Bao gồm:
 - Fanpage Facebook
 - Messenger
 - WhatsApp
 - Instagram Business
 
-#### Vi du cu the:
-- Nguoi nhan tin fanpage
-- Nguoi comment bai post
-- Nguoi xem video
-- Nguoi tuong tac quang cao
+#### Ví dụ cụ thể:
+- Người nhắn tin fanpage
+- Người comment bài post
+- Người xem video
+- Người tương tác quảng cáo
 
-#### Ban chat:
-- Day la data **phat sinh tren tai san cua khach**
-- Gan voi fanpage / messenger - cac kenh **THUOC VE KHACH**
+#### Bản chất:
+- Đây là data **phát sinh trên tài sản của khách**
+- Gắn với fanpage / messenger - các kênh **THUỘC VỀ KHÁCH**
 
-#### Neu ngung hop tac voi agency thi sao?
+#### Nếu ngưng hợp tác với agency thì sao?
 
-| Cau hoi | Tra loi |
+| Câu hỏi | Trả lời |
 |---------|---------|
-| Data co mat khong? | **KHONG** - Data van nam nguyen tren fanpage |
-| Agency co mang di duoc khong? | **KHONG** - Agency khong the mang di |
-| Co can lo lang khong? | **KHONG** - Hoan toan an toan |
+| Data có mất không? | **KHÔNG** - Data vẫn nằm nguyên trên fanpage |
+| Agency có mang đi được không? | **KHÔNG** - Agency không thể mang đi |
+| Có cần lo lắng không? | **KHÔNG** - Hoàn toàn an toàn |
 
-#### Cau noi chuan cho team MangoAds:
+#### 📌 Câu nói chuẩn cho team MangoAds:
 
-> *"Du anh/chi co doi agency, toan bo nguoi da inbox, comment, tuong tac fanpage van thuoc fanpage cua anh/chi, khong ai lay di duoc."*
-
----
-
-### 3.3. Data Rong Cua Facebook (Interest / Demographic / Location)
-
-#### Vi du:
-- So thich (Interest)
-- Hanh vi (Behavior)
-- Dia ly (Location)
-- Nhan khau hoc (Demographics)
-
-#### Ban chat:
-- Day la data **thuoc so huu cua Facebook**
-- Moi advertiser deu duoc quyen su dung **ngang nhau**
-
-#### Meta KHONG cho tai ve vi:
-- Bao mat quyen rieng tu nguoi dung
-- Khong tiet lo danh tinh that
-- Chi cho dung de chay ads trong he sinh thai Meta
-
-#### Thuc chat:
-- Chung ta **KHONG "CO"** data
-- Chung ta chi **dat dieu kien** de Meta phan phoi quang cao
-
-#### Cach giai thich de hieu cho khach:
-
-> *"Facebook giong nhu mot dai truyen hinh: anh/chi chon nhom khan gia muon chieu quang cao, chu khong he cam danh sach nguoi xem."*
+> *"Dù anh/chị có đổi agency, toàn bộ người đã inbox, comment, tương tác fanpage vẫn thuộc fanpage của anh/chị, không ai lấy đi được."*
 
 ---
 
-## 4. Reporting Data - Ket Qua Chay Quang Cao
+### 3.3. Data Rộng Của Facebook (Interest / Demographic / Location)
 
-Day la **LOAI DATA THU 2**, hoan toan khac Audience Data.
+#### Ví dụ:
+- Sở thích (Interest)
+- Hành vi (Behavior)
+- Địa lý (Location)
+- Nhân khẩu học (Demographics)
 
-### Bao gom:
-| Chi so | Mo ta |
+#### Bản chất:
+- Đây là data **thuộc sở hữu của Facebook**
+- Mọi advertiser đều được quyền sử dụng **ngang nhau**
+
+#### Meta KHÔNG cho tải về vì:
+- Bảo mật quyền riêng tư người dùng
+- Không tiết lộ danh tính thật
+- Chỉ cho dùng để chạy ads trong hệ sinh thái Meta
+
+#### Thực chất:
+- Chúng ta **KHÔNG "CÓ"** data
+- Chúng ta chỉ **đặt điều kiện** để Meta phân phối quảng cáo
+
+#### 📌 Cách giải thích dễ hiểu cho khách:
+
+> *"Facebook giống như một đài truyền hình: anh/chị chọn nhóm khán giả muốn chiếu quảng cáo, chứ không hề cầm danh sách người xem."*
+
+---
+
+## 4. Reporting Data - Kết Quả Chạy Quảng Cáo
+
+Đây là **LOẠI DATA THỨ 2**, hoàn toàn khác Audience Data.
+
+### Bao gồm:
+| Chỉ số | Mô tả |
 |--------|-------|
 | CTR | Click-Through Rate |
 | CPC | Cost Per Click |
 | CPM | Cost Per 1000 Impressions |
 | CPE | Cost Per Engagement |
-| Conversion | So luong chuyen doi |
+| Conversion | Số lượng chuyển đổi |
 | ROAS | Return On Ad Spend |
-| Frequency | Tan suat hien thi |
-| Performance | Hieu qua theo creative, audience, placement... |
+| Frequency | Tần suất hiển thị |
+| Performance | Hiệu quả theo creative, audience, placement... |
 
-### Dac diem:
-- Nam trong **Report chi tiet cua MangoAds** ve campaign
-- Dung de:
-  - Danh gia hieu qua campaign
-  - Toi uu chien dich
-  - So sanh phuong an chay
+### Đặc điểm:
+- Nằm trong **Report chi tiết của MangoAds** về campaign
+- Dùng để:
+  - Đánh giá hiệu quả campaign
+  - Tối ưu chiến dịch
+  - So sánh phương án chạy
 
-### Nhung dieu KHONG the lam voi Reporting Data:
-- **KHONG** phai data khach hang
-- **KHONG** the dung de remarketing neu khong co Audience Data
-- **KHONG** the lay danh sach khach hang tu report
+### ❌ Những điều KHÔNG thể làm với Reporting Data:
+- **KHÔNG** phải data khách hàng
+- **KHÔNG** thể dùng để remarketing nếu không có Audience Data
+- **KHÔNG** thể lấy danh sách khách hàng từ report
 
-#### Cach noi ro voi khach:
+#### 📌 Cách nói rõ với khách:
 
-> *"Report chi cho biet quang cao hieu qua hay khong, chu khong cho minh danh sach khach hang de dung lai."*
+> *"Report chỉ cho biết quảng cáo hiệu quả hay không, chứ không cho mình danh sách khách hàng để dùng lại."*
 
 ---
 
-## 5. So Sanh 2 Loai Data
+## 5. So Sánh 2 Loại Data
 
 ```
 +-----------------+------------------+------------------+
 |                 |  AUDIENCE DATA   | REPORTING DATA   |
 +-----------------+------------------+------------------+
-| Muc dich        | Target/Retarget  | Danh gia hieu qua|
+| Mục đích        | Target/Retarget  | Đánh giá hiệu quả|
 +-----------------+------------------+------------------+
-| Dung de         | Chay quang cao   | Toi uu campaign  |
+| Dùng để         | Chạy quảng cáo   | Tối ưu campaign  |
 +-----------------+------------------+------------------+
-| Co the          | Phu thuoc loai   | Co               |
-| export khong?   |                  | (bao cao)        |
+| Có thể          | Phụ thuộc loại   | Có               |
+| export không?   |                  | (báo cáo)        |
 +-----------------+------------------+------------------+
-| La data         | Tuy loai         | Khong            |
-| khach hang?     | (xem chi tiet)   |                  |
+| Là data         | Tùy loại         | Không            |
+| khách hàng?     | (xem chi tiết)   |                  |
 +-----------------+------------------+------------------+
 ```
 
 ---
 
-## 6. Cau Hoi Thuong Gap (FAQ)
+## 6. Câu Hỏi Thường Gặp (FAQ)
 
-### Q1: Khach hoi "Chay xong co lay lai duoc data khong?"
+### Q1: Khách hỏi "Chạy xong có lấy lại được data không?"
 
-**Tra loi:**
-> Data CRM cua anh/chi van o CRM, data fanpage van o fanpage. Agency khong giu va cung khong the lay data cua khach hang.
+**Trả lời:**
+> Data CRM của anh/chị vẫn ở CRM, data fanpage vẫn ở fanpage. Agency không giữ và cũng không thể lấy data của khách hàng.
 
-### Q2: Khach hoi "Doi agency thi mat data khong?"
+### Q2: Khách hỏi "Đổi agency thì mất data không?"
 
-**Tra loi:**
-> Khong mat. Tat ca data phat sinh tren fanpage, messenger cua anh/chi van thuoc ve anh/chi. Agency moi co the tiep tuc su dung ngay.
+**Trả lời:**
+> Không mất. Tất cả data phát sinh trên fanpage, messenger của anh/chị vẫn thuộc về anh/chị. Agency mới có thể tiếp tục sử dụng ngay.
 
-### Q3: Khach hoi "Sao agency khong giao lai data?"
+### Q3: Khách hỏi "Sao agency không giao lại data?"
 
-**Tra loi:**
-> Vi data khong nam o agency. Data CRM la cua anh/chi, data tuong tac nam tren fanpage cua anh/chi, con data rong cua Facebook thi ai cung dung nhu nhau.
+**Trả lời:**
+> Vì data không nằm ở agency. Data CRM là của anh/chị, data tương tác nằm trên fanpage của anh/chị, còn data rộng của Facebook thì ai cũng dùng như nhau.
 
-### Q4: Khach hoi "Vay agency giu cai gi?"
+### Q4: Khách hỏi "Vậy agency giữ cái gì?"
 
-**Tra loi:**
-> MangoAds giu cac bao cao hieu qua (report), chien luoc da chay, va kien thuc toi uu. Day la nhung gi giup chung toi phuc vu anh/chi tot hon, khong phai data khach hang.
-
----
-
-## 7. Key Takeaways - Nhan Vien MangoAds Can Nho
-
-1. **2 loai data khac nhau:** Audience Data (de chay ads) va Reporting Data (de danh gia)
-
-2. **Custom Audience:** Khach da co tu truoc, Meta chi mapping
-
-3. **Fanpage Data:** Thuoc ve fanpage cua khach, agency khong the mang di
-
-4. **Interest Data:** Cua Facebook, ai cung dung nhu nhau
-
-5. **Report:** Chi de danh gia, khong phai data khach hang
-
-6. **Cau chot:** "Agency khong giu va khong the lay data cua khach hang"
+**Trả lời:**
+> MangoAds giữ các báo cáo hiệu quả (report), chiến lược đã chạy, và kiến thức tối ưu. Đây là những gì giúp chúng tôi phục vụ anh/chị tốt hơn, không phải data khách hàng.
 
 ---
 
-**Tiep theo:** [02 - Kich Ban Tra Loi Khach Hang](./02-kich-ban-tra-loi-khach-hang.md)
+## 7. Key Takeaways - Nhân Viên MangoAds Cần Nhớ
+
+1. **2 loại data khác nhau:** Audience Data (để chạy ads) và Reporting Data (để đánh giá)
+
+2. **Custom Audience:** Khách đã có từ trước, Meta chỉ mapping
+
+3. **Fanpage Data:** Thuộc về fanpage của khách, agency không thể mang đi
+
+4. **Interest Data:** Của Facebook, ai cũng dùng như nhau
+
+5. **Report:** Chỉ để đánh giá, không phải data khách hàng
+
+6. **Câu chốt:** "Agency không giữ và không thể lấy data của khách hàng"
+
+---
+
+**Tiếp theo:** [02 - Kịch Bản Trả Lời Khách Hàng](./02-kich-ban-tra-loi-khach-hang.md)
 
 ---
 
 *MangoAds - Digital Ads Agency*
-*Tai lieu Training Noi bo*
+*Tài liệu Training Nội bộ*
