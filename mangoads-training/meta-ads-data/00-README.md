@@ -27,6 +27,8 @@ Sau khi hoan thanh training nay, nhan vien MangoAds se:
 2. **Phan biet duoc** Audience Data va Reporting Data
 3. **Giai thich chinh xac** cho khach hang ve van de "mat data"
 4. **Tu tin tra loi** khi khach hang hoi "chay xong co lay lai duoc data khong?"
+5. **Hieu dung ban chat** cua Data trong quang cao so (Data + Platform = Gia tri)
+6. **Giai toa noi lo** cua khach hang ve "co data ma khong dung duoc"
 
 ## Cau truc Tai lieu
 
@@ -35,6 +37,7 @@ Sau khi hoan thanh training nay, nhan vien MangoAds se:
 | [01-hieu-biet-ve-data-meta-ads.md](./01-hieu-biet-ve-data-meta-ads.md) | Kien thuc nen tang ve 2 loai data tren Meta |
 | [02-kich-ban-tra-loi-khach-hang.md](./02-kich-ban-tra-loi-khach-hang.md) | Cac kich ban tra loi khach hang thuong gap |
 | [03-bang-tom-tat-nhanh.md](./03-bang-tom-tat-nhanh.md) | Bang tom tat nhanh de tra cuu |
+| [04-hieu-dung-ve-data.md](./04-hieu-dung-ve-data.md) | **[MOI]** Hieu dung ban chat Data (Data + Platform = Gia tri) |
 
 ## Doi tuong Ap dung
 
@@ -47,8 +50,18 @@ Sau khi hoan thanh training nay, nhan vien MangoAds se:
 ## Cach Su dung Tai lieu
 
 1. **Doc ky** tai lieu 01 de nam vung kien thuc nen tang
-2. **Luyen tap** cac kich ban trong tai lieu 02
-3. **In ra** hoac luu bang tom tat 03 de tra cuu nhanh khi can
+2. **Doc tiep** tai lieu 04 de hieu sau hon ve ban chat Data
+3. **Luyen tap** cac kich ban trong tai lieu 02
+4. **In ra** hoac luu bang tom tat 03 de tra cuu nhanh khi can
+
+## Lo trinh Training De xuat
+
+```
+Ngay 1: Doc tai lieu 01 + 04 (Kien thuc nen tang)
+Ngay 2: Doc tai lieu 02 (Kich ban tra loi)
+Ngay 3: Luyen tap voi dong nghiep (Role-play)
+Ngay 4: Thi thu voi Team Lead
+```
 
 ---
 
