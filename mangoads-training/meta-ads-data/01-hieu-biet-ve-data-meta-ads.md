@@ -1,7 +1,7 @@
 # Hiểu Biết Về Data Trên Meta/Facebook Ads
 
-> **📚 TÀI LIỆU TRAINING NỘI BỘ MANGOADS**
-> Phiên bản 1.0 - Tháng 01/2025
+**📚 TÀI LIỆU TRAINING NỘI BỘ MANGOADS**
+
 
 ---
 
