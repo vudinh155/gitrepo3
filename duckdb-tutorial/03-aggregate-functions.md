@@ -59,6 +59,23 @@ ALTER TABLE doanh_so ADD COLUMN thanh_tien INTEGER;
 UPDATE doanh_so SET thanh_tien = so_luong * don_gia;
 ```
 
+**📊 Bảng dữ liệu mẫu sau khi tạo:**
+
+| id | nhan_vien | phong_ban | san_pham | so_luong | don_gia | ngay_ban | thanh_tien |
+|----|-----------|-----------|----------|----------|---------|----------|------------|
+| 1 | An | Sales | Laptop | 2 | 20,000,000 | 2024-01-05 | 40,000,000 |
+| 2 | An | Sales | Mouse | 10 | 500,000 | 2024-01-10 | 5,000,000 |
+| 3 | Bình | Sales | Laptop | 1 | 20,000,000 | 2024-01-12 | 20,000,000 |
+| 4 | An | Sales | Keyboard | 5 | 1,000,000 | 2024-01-15 | 5,000,000 |
+| 5 | Bình | Sales | Monitor | 3 | 5,000,000 | 2024-01-18 | 15,000,000 |
+| 6 | Cường | Marketing | Laptop | 1 | 20,000,000 | 2024-02-01 | 20,000,000 |
+| 7 | Cường | Marketing | Mouse | 20 | 500,000 | 2024-02-05 | 10,000,000 |
+| 8 | Dung | Marketing | Monitor | 2 | 5,000,000 | 2024-02-10 | 10,000,000 |
+| 9 | An | Sales | Laptop | 3 | 20,000,000 | 2024-02-15 | 60,000,000 |
+| 10 | Bình | Sales | Keyboard | 8 | 1,000,000 | 2024-02-20 | 8,000,000 |
+| 11 | Cường | Marketing | Monitor | 1 | 5,000,000 | 2024-03-01 | 5,000,000 |
+| 12 | Dung | Marketing | Laptop | 2 | 20,000,000 | 2024-03-05 | 40,000,000 |
+
 ---
 
 ## 3. Các Hàm Aggregate Cơ Bản
@@ -159,6 +176,41 @@ Kết quả:
 
 ### 4.1. Nhóm Theo Một Cột
 
+**🎯 Minh họa cách GROUP BY hoạt động:**
+
+```
+BƯỚC 1: Dữ liệu ban đầu (12 dòng)
+┌───────────┬──────────────┐
+│ nhan_vien │  thanh_tien  │
+├───────────┼──────────────┤
+│ An        │   40,000,000 │
+│ An        │    5,000,000 │
+│ An        │    5,000,000 │
+│ An        │   60,000,000 │  ← 4 dòng của An
+├───────────┼──────────────┤
+│ Bình      │   20,000,000 │
+│ Bình      │   15,000,000 │
+│ Bình      │    8,000,000 │  ← 3 dòng của Bình
+├───────────┼──────────────┤
+│ Cường     │   20,000,000 │
+│ Cường     │   10,000,000 │
+│ Cường     │    5,000,000 │  ← 3 dòng của Cường
+├───────────┼──────────────┤
+│ Dung      │   10,000,000 │
+│ Dung      │   40,000,000 │  ← 2 dòng của Dung
+└───────────┴──────────────┘
+
+BƯỚC 2: GROUP BY gom nhóm + Aggregate tính toán → 4 dòng kết quả
+┌───────────┬────────┬───────────────┐
+│ nhan_vien │ so_don │ tong_doanh_so │
+├───────────┼────────┼───────────────┤
+│ An        │   4    │   110,000,000 │  ← COUNT=4, SUM=40+5+5+60
+│ Bình      │   3    │    43,000,000 │  ← COUNT=3, SUM=20+15+8
+│ Cường     │   3    │    35,000,000 │  ← COUNT=3, SUM=20+10+5
+│ Dung      │   2    │    50,000,000 │  ← COUNT=2, SUM=10+40
+└───────────┴────────┴───────────────┘
+```
+
 ```sql
 -- Doanh số theo nhân viên
 SELECT
@@ -170,17 +222,14 @@ GROUP BY nhan_vien
 ORDER BY tong_doanh_so DESC;
 ```
 
-Kết quả:
-```
-┌───────────┬────────┬──────────────┐
-│ nhan_vien │ so_don │ tong_doanh_so│
-├───────────┼────────┼──────────────┤
-│ An        │ 4      │ 110000000    │
-│ Cường     │ 3      │ 35000000     │
-│ Bình      │ 3      │ 43000000     │
-│ Dung      │ 2      │ 50000000     │
-└───────────┴────────┴──────────────┘
-```
+**📊 Kết quả:**
+
+| nhan_vien | so_don | tong_doanh_so |
+|-----------|--------|---------------|
+| An | 4 | 110,000,000 |
+| Dung | 2 | 50,000,000 |
+| Bình | 3 | 43,000,000 |
+| Cường | 3 | 35,000,000 |
 
 ### 4.2. Nhóm Theo Nhiều Cột
 
@@ -301,9 +350,23 @@ GROUP BY nhan_vien
 ORDER BY he_so_bien_thien;
 ```
 
+**📊 Kết quả và phân tích:**
+
+| nhan_vien | so_don | doanh_so_tb | do_lech_chuan | he_so_bien_thien | Đánh giá |
+|-----------|--------|-------------|---------------|------------------|----------|
+| Cường | 3 | 11,666,667 | 7,637,626 | 65.47% | Biến động trung bình |
+| Bình | 3 | 14,333,333 | 6,027,714 | 42.05% | Tương đối ổn định |
+| An | 4 | 27,500,000 | 26,299,941 | 95.64% | Biến động cao ⚠️ |
+| Dung | 2 | 25,000,000 | 21,213,203 | 84.85% | Biến động cao ⚠️ |
+
+**🔍 Giải thích kết quả:**
+- **An** có CV = 95.64%: Doanh số dao động mạnh (có đơn 5 triệu, có đơn 60 triệu)
+- **Bình** có CV = 42.05%: Doanh số ổn định nhất (các đơn 8-20 triệu)
+
 **Hệ số biến thiên (CV)** = Độ lệch chuẩn / Trung bình × 100%
-- CV nhỏ = Doanh số ổn định
-- CV lớn = Doanh số biến động nhiều
+- CV < 30% = Doanh số ổn định ✅
+- CV 30-60% = Biến động trung bình ⚡
+- CV > 60% = Doanh số biến động nhiều ⚠️
 
 ---
 

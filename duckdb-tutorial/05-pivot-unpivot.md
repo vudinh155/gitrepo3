@@ -106,6 +106,20 @@ SELECT * FROM (VALUES
 ) AS t(khu_vuc, san_pham, doanh_thu);
 ```
 
+**📊 Bảng dữ liệu mẫu (dạng dọc - 9 dòng):**
+
+| khu_vuc | san_pham | doanh_thu |
+|---------|----------|-----------|
+| Hà Nội | Laptop | 1000 |
+| Hà Nội | Phone | 800 |
+| Hà Nội | Tablet | 500 |
+| TP.HCM | Laptop | 1200 |
+| TP.HCM | Phone | 900 |
+| TP.HCM | Tablet | 600 |
+| Đà Nẵng | Laptop | 700 |
+| Đà Nẵng | Phone | 550 |
+| Đà Nẵng | Tablet | 400 |
+
 ### 3.2. PIVOT Đơn Giản
 
 ```sql
@@ -116,15 +130,34 @@ USING SUM(doanh_thu)
 GROUP BY khu_vuc;
 ```
 
-Kết quả:
+**📊 Kết quả (dạng ngang - 3 dòng):**
+
+| khu_vuc | Laptop | Phone | Tablet |
+|---------|--------|-------|--------|
+| Đà Nẵng | 700 | 550 | 400 |
+| Hà Nội | 1000 | 800 | 500 |
+| TP.HCM | 1200 | 900 | 600 |
+
+**🔍 Giải thích từng bước PIVOT:**
+
 ```
-┌─────────┬────────┬───────┬────────┐
-│ khu_vuc │ Laptop │ Phone │ Tablet │
-├─────────┼────────┼───────┼────────┤
-│ Đà Nẵng │    700 │   550 │    400 │
-│ Hà Nội  │   1000 │   800 │    500 │
-│ TP.HCM  │   1200 │   900 │    600 │
-└─────────┴────────┴───────┴────────┘
+BƯỚC 1: Xác định các giá trị unique của cột ON (san_pham)
+        → Laptop, Phone, Tablet → Trở thành TÊN CỘT mới
+
+BƯỚC 2: Xác định các giá trị unique của GROUP BY (khu_vuc)
+        → Đà Nẵng, Hà Nội, TP.HCM → Trở thành các DÒNG
+
+BƯỚC 3: Với mỗi ô (khu_vuc, san_pham), apply USING SUM(doanh_thu)
+
+        Ví dụ ô (Hà Nội, Laptop):
+        - Tìm: WHERE khu_vuc='Hà Nội' AND san_pham='Laptop'
+        - Kết quả: doanh_thu = 1000
+        - SUM(1000) = 1000 → Điền vào ô
+
+        Ví dụ ô (TP.HCM, Phone):
+        - Tìm: WHERE khu_vuc='TP.HCM' AND san_pham='Phone'
+        - Kết quả: doanh_thu = 900
+        - SUM(900) = 900 → Điền vào ô
 ```
 
 ### 3.3. PIVOT Với IN - Chỉ Định Cột Cụ Thể

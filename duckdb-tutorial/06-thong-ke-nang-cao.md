@@ -71,7 +71,19 @@ SELECT * FROM (VALUES
     ('B', 200), ('B', 180), ('B', 190), ('B', 210), ('B', 220),
     ('B', 170), ('B', 230), ('B', 195), ('B', 205), ('B', 215)
 ) AS t(campaign, conversions);
+```
 
+**📊 Dữ liệu mẫu campaign_metrics:**
+
+| Campaign A | | Campaign B | |
+|------------|---|------------|---|
+| 90 | 115 | 170 | 195 |
+| 100 | 120 | 180 | 200 |
+| 110 | 125 | 190 | 205 |
+| 130 | 135 | 210 | 215 |
+| 140 | 150 | 220 | 230 |
+
+```sql
 -- Tính Mean
 SELECT
     campaign,
@@ -79,6 +91,13 @@ SELECT
 FROM campaign_metrics
 GROUP BY campaign;
 ```
+
+**📊 Kết quả:**
+
+| campaign | mean_conversions | Cách tính |
+|----------|------------------|-----------|
+| A | 121.5 | (90+100+110+115+120+125+130+135+140+150) / 10 |
+| B | 201.5 | (170+180+190+195+200+205+210+215+220+230) / 10 |
 
 **Khi nào dùng Mean:**
 - Dữ liệu phân phối đều
@@ -138,13 +157,33 @@ SELECT
 FROM chi_tieu;
 ```
 
-Kết quả:
+**📊 Dữ liệu chi_tieu (có outlier):**
+
+| Giá trị | Loại |
+|---------|------|
+| 100 | Bình thường |
+| 110 | Bình thường |
+| 115 | Bình thường |
+| 120 | Bình thường |
+| 130 | Bình thường |
+| **5000** | **⚠️ Outlier** |
+
+**📊 Kết quả so sánh:**
+
+| Thống kê | Giá trị | Giải thích |
+|----------|---------|------------|
+| Mean | 929.17 | Bị kéo lên bởi outlier 5000 ⚠️ |
+| Median | 115 | Không bị ảnh hưởng ✅ |
+| Mode | 100 | Giá trị xuất hiện nhiều nhất |
+
 ```
-┌────────────┬──────────────┬────────────┐
-│ mean_spend │ median_spend │ mode_spend │
-├────────────┼──────────────┼────────────┤
-│     929.17 │          115 │        100 │  ← Mean bị kéo lên bởi 5000
-└────────────┴──────────────┴────────────┘
+Phân bố dữ liệu:
+100  110  115  120  130                              5000
+ │    │    │    │    │                                 │
+ ▼    ▼    ▼    ▼    ▼                                 ▼
+ ○────○────○────○────○─────────────────────────────────●
+           ↑                        ↑
+        Median=115              Mean=929 (bị kéo về phía outlier)
 ```
 
 ---
@@ -206,6 +245,17 @@ SELECT
 FROM campaign_metrics
 GROUP BY campaign;
 ```
+
+**📊 Kết quả và giải thích:**
+
+| campaign | mean | stddev | Ý nghĩa |
+|----------|------|--------|---------|
+| A | 121.5 | 18.93 | Dữ liệu dao động ±19 quanh 121.5 |
+| B | 201.5 | 18.93 | Dữ liệu dao động ±19 quanh 201.5 |
+
+**🔍 Ví dụ cụ thể với Campaign A (mean=121.5, stddev≈19):**
+- 68% giá trị nằm trong: 121.5 ± 19 = [102.5, 140.5]
+- Kiểm tra: 90, **100, 110, 115, 120, 125, 130, 135, 140**, 150 → 8/10 = 80% ✓
 
 ### 3.4. Ý Nghĩa Của Standard Deviation
 
